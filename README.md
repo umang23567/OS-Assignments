@@ -31,9 +31,21 @@ Code Structure:-
 7. redirect_input() / redirect_output(): Redirects the input and output to/from pipes or files.
 8. create_process_and_run(): Executes the command, handles pipes, forks processes, and records execution time for history.
 
-Documentation:-
-Umang Aggarwal-
-Vinit Kumar- Bonus part, readme
+Limitations:- In this shell, we currently can't use these commands-
+
+ Built-in Shell Commands: Commands like cd, exit, and export: These commands are built into most shells (e.g., Bash) and do not spawn    external processes. In your custom shell, these commands will not work as expected unless you implement them yourself.
+
+ Commands Requiring Interactive Input: Commands like ssh, su, passwd: These commands require interactive input (e.g., passwords), and  handling them in a custom shell can be difficult. These commands might run but may not behave as expected in terms of interaction with the user.
+ 
+ I/O Redirection: This shell does not currently support file redirection using >, <, or >>.
+ 
+ Pipelines with Built-in Commands: cd in Pipelines: If you use cd in a pipeline like cd /path | ls, the behavior will not be correct because cd affects only the current shell process, and piping it to another command creates a separate child process where the directory change won’t persist.
+
+
+
+Contribution:-
+Umang Aggarwal- execution and testing
+Vinit Kumar-  documentation, parsing and bonus
 
 GitHub link: https://github.com/vinit23599/OS-Project-2
 
