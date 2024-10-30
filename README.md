@@ -110,7 +110,7 @@
 
 make
 
-.scheduler <NCPU> <TSLICE>
+./scheduler NCPU TSLICE
 
 ### Example
 
