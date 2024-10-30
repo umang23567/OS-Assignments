@@ -28,8 +28,7 @@
 ### Multiple Submissions
 
  The system supports multiple job submissions via the `submit` command. Once all jobs are
- submitted, the `start` command initializes the scheduling of all jobs as a batch. This avoids
- calling the scheduler after each submission.
+ submitted, the `start` command initializes the scheduling of all jobs as a batch. 
 
 ### Job Statistics
  Once all jobs are completed, the scheduler generates statistics that display the completion
