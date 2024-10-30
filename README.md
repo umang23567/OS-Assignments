@@ -1,6 +1,3 @@
-# OS_Project_3
-
-
 # Process Scheduler
 
 ## Overview
