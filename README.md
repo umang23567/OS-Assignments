@@ -110,13 +110,13 @@
 
 make
 
-./scheduler NCPU TSLICE
+./Scheduler NCPU TSLICE
 
 ### Example
 
 make
 
-./scheduler 2 100
+./Scheduler 2 100
 
 
 ### Commands
