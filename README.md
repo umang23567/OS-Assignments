@@ -109,17 +109,22 @@
 ### Compiling
 
 make
+
 .scheduler <NCPU> <TSLICE>
 
 ### Example
 
 make
+
 ./scheduler 2 100
 
 
 ### Commands
+
  Shell$ start
+ 
  Starting scheduler...
+ 
  Shell$ exit
 
 
